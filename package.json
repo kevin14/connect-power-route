@@ -1,0 +1,24 @@
+{
+  "name": "connect-power-route",
+  "version": "0.0.1",
+  "description": "Nodejs connect的路由模块，将express的路由操作习惯抽取出来支持connect",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kevin14/connect-power-route.git"
+  },
+  "keywords": [
+    "connect",
+    "route",
+    "express"
+  ],
+  "author": "kevin14",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kevin14/connect-power-route/issues"
+  },
+  "homepage": "https://github.com/kevin14/connect-power-route",
+  "dependencies": {
+    "path-to-regexp": "~1.0.3"
+  }
+}
