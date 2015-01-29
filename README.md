@@ -23,7 +23,7 @@ app.use(cpr(function (router) {
 		res.end('home ' + req.params.id);
 	});
 
-	router.post('/home/:id(//\d{0,4})', function (req, res, next) {
+	router.post('/home/:id(\\d{0,4})', function (req, res, next) {
 		res.end('POST to home');
 	});
 }));
