@@ -1,9 +1,11 @@
 # connect-power-route
 Nodejs connect的路由模块，将express的路由操作习惯抽取出来支持connect
 
-# Usage
+# 使用
 
-用法和express一样，如下：
+```
+npm install connect-power-route --save
+```
 
 ```js
 var cpr = require('connect-power-route');
